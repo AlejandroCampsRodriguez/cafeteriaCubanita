@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería La Esquina - Sabores Auténticos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home">
+                <i class="fas fa-coffee"></i> Cafetería La Esquina
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menú</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container-fluid p-0">
+            <div class="hero-content">
+                <h1 class="display-3 fw-bold text-white mb-4">Bienvenido a La Esquina</h1>
+                <p class="lead text-white mb-4">Los mejores sabores auténticos de nuestra cafetería</p>
+                <a href="#menu" class="btn btn-warning btn-lg">Ver Menú</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería Fotos -->
+    <section id="galeria" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Conoce Nuestro Lugar</h2>
+            <div class="row g-4">
+                <!-- Fachada -->
+                <div class="col-md-6">
+                    <div class="card h-100 shadow">
+                        <img src="https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=500&q=80" class="card-img-top" alt="Fachada de la Cafetería">
+                        <div class="card-body">
+                            <h5 class="card-title">Nuestra Fachada</h5>
+                            <p class="card-text">Un espacio acogedor y moderno donde disfrutar de los mejores momentos con amigos y familia.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Dependiente despachando -->
+                <div class="col-md-6">
+                    <div class="card h-100 shadow">
+                        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=500&q=80" class="card-img-top" alt="Dependiente preparando bebidas">
+                        <div class="card-body">
+                            <h5 class="card-title">Nuestro Equipo</h5>
+                            <p class="card-text">Personal especializado en la preparación de bebidas y bocadillos deliciosos con atención al detalle.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menú de Productos -->
+    <section id="menu" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Nuestro Menú</h2>
+
+            <!-- Batidos -->
+            <div class="mb-5">
+                <h3 class="text-warning mb-4">
+                    <i class="fas fa-blender"></i> Batidos Especiales
+                </h3>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm product-card">
+                            <img src="https://images.unsplash.com/photo-1590080876614-f85f4c459b5f?w=400&q=80" class="card-img-top" alt="Batido de Zapote">
+                            <div class="card-body">
+                                <h5 class="card-title">Batido de Zapote</h5>
+                                <p class="card-text">Delicioso batido cremoso de zapote fresco con un toque de vainilla. Rico en vitaminas y minerales.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="text-warning fw-bold">$5.50</span>
+                                    <button class="btn btn-sm btn-warning">Ordenar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bocadillos -->
+            <div class="mb-5">
+                <h3 class="text-warning mb-4">
+                    <i class="fas fa-utensils"></i> Bocadillos Sabrosos
+                </h3>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm product-card">
+                            <img src="https://images.unsplash.com/photo-1555939594-58d7cb561bf1?w=400&q=80" class="card-img-top" alt="Bocadito de Carne Asada">
+                            <div class="card-body">
+                                <h5 class="card-title">Bocadito de Carne Asada</h5>
+                                <p class="card-text">Pan fresco relleno de jugosa carne asada, cebolla y cilantro. Un clásico que no puede faltar.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="text-warning fw-bold">$7.00</span>
+                                    <button class="btn btn-sm btn-warning">Ordenar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pizza -->
+            <div class="mb-5">
+                <h3 class="text-warning mb-4">
+                    <i class="fas fa-pizza-slice"></i> Pizzas Especiales
+                </h3>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm product-card">
+                            <img src="https://images.unsplash.com/photo-1628840042765-356cda07f4ee?w=400&q=80" class="card-img-top" alt="Pizza Cubana">
+                            <div class="card-body">
+                                <h5 class="card-title">Pizza Cubana</h5>
+                                <p class="card-text">Auténtica pizza cubana con jamón, queso, piña y especias. Una combinación única y deliciosa.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="text-warning fw-bold">$12.00</span>
+                                    <button class="btn btn-sm btn-warning">Ordenar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Refrescos -->
+            <div class="mb-5">
+                <h3 class="text-warning mb-4">
+                    <i class="fas fa-glass"></i> Refrescos Naturales
+                </h3>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm product-card">
+                            <img src="https://images.unsplash.com/photo-1600271886742-f049cd1223a1?w=400&q=80" class="card-img-top" alt="Refresco de Naranja">
+                            <div class="card-body">
+                                <h5 class="card-title">Refresco de Naranja</h5>
+                                <p class="card-text">Jugo natural de naranja fresca, sin azúcares añadidos. Refrescante y lleno de vitamina C.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="text-warning fw-bold">$3.50</span>
+                                    <button class="btn btn-sm btn-warning">Ordenar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm product-card">
+                            <img src="https://images.unsplash.com/photo-1590080876614-f85f4c459b5f?w=400&q=80" class="card-img-top" alt="Refresco de Guayaba">
+                            <div class="card-body">
+                                <h5 class="card-title">Refresco de Guayaba</h5>
+                                <p class="card-text">Bebida tropical elaborada con guayaba fresca. Dulce, refrescante y muy nutritiva.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="text-warning fw-bold">$3.50</span>
+                                    <button class="btn btn-sm btn-warning">Ordenar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm product-card">
+                            <img src="https://images.unsplash.com/photo-1579954614171-828206a991ee?w=400&q=80" class="card-img-top" alt="Refresco de Mango">
+                            <div class="card-body">
+                                <h5 class="card-title">Refresco de Mango</h5>
+                                <p class="card-text">Delicioso jugo de mango maduro y fresco. El sabor tropical que necesitas para disfrutar.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="text-warning fw-bold">$3.50</span>
+                                    <button class="btn btn-sm btn-warning">Ordenar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Contáctanos</h2>
+            <div class="row g-4 text-center">
+                <div class="col-md-4">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt fa-2x mb-3 text-warning"></i>
+                        <h5>Ubicación</h5>
+                        <p>Calle Principal #123<br>La Esquina, Ciudad</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-item">
+                        <i class="fas fa-phone fa-2x mb-3 text-warning"></i>
+                        <h5>Teléfono</h5>
+                        <p>(+123) 456-7890<br>Lunes a Domingo</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope fa-2x mb-3 text-warning"></i>
+                        <h5>Email</h5>
+                        <p>info@cafelaesquina.com<br>contacto@cafelaesquina.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white py-4 border-top border-warning">
+        <div class="container">
+            <p class="mb-2">&copy; 2026 Cafetería La Esquina. Todos los derechos reservados.</p>
+            <div class="mb-2">
+                <a href="#" class="text-warning me-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-warning me-3"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-warning"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="text-muted">Hecho con <i class="fas fa-heart text-danger"></i> para nuestros clientes</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
