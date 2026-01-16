@@ -239,29 +239,168 @@ html {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .hero-section {
-        min-height: 350px;
+        min-height: 400px;
     }
 
     .hero-content h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .hero-content .lead {
-        font-size: 1.1rem;
+        font-size: 1.25rem;
     }
 
     h2 {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     .product-card img {
-        height: 200px;
+        height: 220px;
     }
 
     .card img {
-        height: 200px;
+        height: 220px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        min-height: 350px;
+        background-attachment: scroll;
+    }
+
+    .hero-content h1 {
+        font-size: 1.75rem;
+    }
+
+    .hero-content .lead {
+        font-size: 1rem;
+    }
+
+    .hero-content .btn-lg {
+        font-size: 0.95rem;
+        padding: 0.5rem 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .product-card img {
+        height: 180px;
+    }
+
+    .card img {
+        height: 180px;
+    }
+
+    .product-card .card-body {
+        padding: 15px;
+    }
+
+    .product-card .card-title {
+        font-size: 1rem;
+    }
+
+    .product-card .card-text {
+        font-size: 0.85rem;
+    }
+
+    .btn-sm {
+        padding: 0.35rem 0.75rem;
+        font-size: 0.8rem;
+    }
+
+    .contact-item {
+        padding: 15px;
+    }
+
+    .navbar-brand {
+        font-size: 1.1rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section {
+        min-height: 300px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.25rem;
+    }
+
+    .hero-content .lead {
+        font-size: 0.85rem;
+    }
+
+    .hero-content .btn-lg {
+        font-size: 0.85rem;
+        padding: 0.4rem 1rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .product-card img,
+    .card img {
+        height: 150px;
+    }
+
+    .product-card .card-body {
+        padding: 12px;
+    }
+
+    .product-card .card-title {
+        font-size: 0.9rem;
+    }
+
+    .product-card .card-text {
+        font-size: 0.8rem;
+    }
+
+    .d-flex {
+        flex-direction: column !important;
+        gap: 10px;
+    }
+
+    .text-warning {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .contact-item {
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        font-size: 0.95rem;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    .mb-5 {
+        margin-bottom: 2rem !important;
     }
 }
 
